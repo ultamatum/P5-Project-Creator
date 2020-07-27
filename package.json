@@ -11,6 +11,7 @@
 		"Snippets",
 		"Programming Languages"
 	],
+	"icon": "res/p5js.png",
 	"keywords": [
 		"P5",
 		"Processing",
@@ -19,6 +20,14 @@
 		"Default",
 		"Quick"
 	],
+	"bugs": {
+		"url": "https://github.com/ultamatum/P5-Project-Creator/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ultamatum/P5-Project-Creator.git"
+	},
+	"homepage": "http://ultamatum.net",
 	"activationEvents": [
 		"onCommand:p5-project-creator.createP5Project"
 	],
