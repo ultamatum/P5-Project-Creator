@@ -1,11 +1,5 @@
 # Change Log
 
-All notable changes to the "p5-project-creator" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
 ## [1.2.1]
 ### Changed
  - Updated P5 to latest version (1.4.0)
