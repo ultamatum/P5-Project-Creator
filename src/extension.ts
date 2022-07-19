@@ -25,7 +25,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 			if (canGo) {
 				edit.createFile(jsfile, { ignoreIfExists: true, overwrite: false });
-				edit.insert(jsfile, new vscode.Position(0, 0), "function setup() \n{\n\tcreateCanvas(400, 400);\n}\n\nfunction draw()\n{\n\n}\n");
+				edit.insert(jsfile, new vscode.Position(0, 0), "function setup() {\n\tcreateCanvas(400, 400);\n}\n\nfunction draw() {\n\n}\n");
 
 				edit.createFile(htmlfile, { ignoreIfExists: true, overwrite: false });
 				edit.insert(htmlfile, new vscode.Position(0, 0), "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"utf-8\">\n\t<title>" + `${data}` + "</title>\n\n\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js\"></script>\n\n</head>\n\n<body>\n\t<script src=\"sketch.js\"></script>\n</body>\n\n</html>\n");
